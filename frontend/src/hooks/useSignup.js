@@ -13,6 +13,7 @@ const useSignup = () => {
     confirmPassword,
     gender,
   }) => {
+    //!here are return an error 500 (Internal Server Error) when trying to sign up a new user
     const success = handleInputsErrors({
       fullName,
       username,
